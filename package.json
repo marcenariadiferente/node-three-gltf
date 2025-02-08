@@ -2,18 +2,8 @@
   "name": "node-three-gltf",
   "version": "2.0.1",
   "description": "Use three.js GLTFLoader in a Node.js environment",
-  "exports": {
-    ".": {
-      "import": {
-        "types": "./build/index.d.ts",
-        "default": "./build/index.js"
-      },
-      "require": {
-        "types": "./build/index.d.cts",
-        "default": "./build/index.cjs"
-      }
-    }
-  },
+  "types": "./build/index.d.ts",
+  "exports": "./build/index.cjs",
   "type": "module",
   "engines": {
     "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
